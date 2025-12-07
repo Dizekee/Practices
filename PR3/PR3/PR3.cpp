@@ -1,5 +1,6 @@
 ﻿#include <iostream>
 #include <cmath>
+#include <string>
 
 using namespace std;
 
@@ -77,16 +78,16 @@ void number_module() {
 
     int number;
 
-    cout << "Ввдеите число: ";
+    cout << "Введеите число: ";
     cin >> number;
-    
+
     cout << "Модуль числа: " << (number > 0 ? number : number * (-1));
 }
 
 //3.1.5
 
 void squares_of_shapes() {
-    
+
     int a, c, d;
     double pi = 3.14159265358979323846;
 
@@ -101,7 +102,7 @@ void squares_of_shapes() {
 
     double squares_circle = pi * a * a;
 
-    double squares_triangle = 1 / 2 * c * d;
+    double squares_triangle = 0.5 * c * d;
 
     cout << (squares_circle > squares_triangle ? "Площадь круга больше" : "Площадь треугольника больше") << endl;
 
@@ -110,7 +111,7 @@ void squares_of_shapes() {
 //3.1.6
 
 void equation() {
-    
+
     int x;
     cout << "Введите X: ";
     cin >> x;
@@ -124,7 +125,7 @@ void equation() {
 //3.1.7
 
 void chart() {
-    
+
     int x, y;
     cout << "x равен: ";
     cin >> x;
@@ -142,7 +143,7 @@ void chart() {
 //3.1.8
 
 void comparison_of_values() {
-    
+
     double foot = 0.3048;
     double a, b;
 
@@ -159,7 +160,7 @@ void comparison_of_values() {
 //3.1.9
 
 void density() {
-    
+
     double weight1, weight2, volume1, volume2;
 
     cout << "Масса1: ";
@@ -200,7 +201,7 @@ void three_digit_number() {
 void inequality() {
 
     double a, b, c;
-    
+
     cout << "a: ";
     cin >> a;
 
@@ -213,11 +214,350 @@ void inequality() {
     cout << a << " < " << b << " < " << c << (a < b && b < c ? " - верно" : " - неверно");
 }
 
+//3.1.12
+
+void kalcul() {
+    double a, b;
+    int f;
+
+    cout << "Введите первое число: ";
+    cin >> a;
+
+    cout << "Введите второе число: ";
+    cin >> b;
+
+    cout << "Выбор операции:\n1 - умножение\n2 - деление\n3 - сложение\n4 - вычитание\n";
+    cin >> f;
+
+    switch (f) {
+    case 1:
+        cout << a * b;
+        break;
+    case 2:
+        cout << a / b;
+        break;
+    case 3:
+        cout << a + b;
+        break;
+    case 4:
+        cout << a - b;
+        break;
+    default:
+        cout << "Ошибка";
+        break;
+    }
+}
+
+//3.1.13
+
+void brush() {
+    int f;
+
+    cout << "Введите число: ";
+    cin >> f;
+
+    switch (f) {
+    case 1:
+        cout << "Мизинец";
+        break;
+    case 2:
+        cout << "Безымянный";
+        break;
+    case 3:
+        cout << "Средний";
+        break;
+    case 4:
+        cout << "Указательный";
+        break;
+    case 5:
+        cout << "Большой";
+        break;
+    case 6:
+        cout << "Большой";
+        break;
+    case 7:
+        cout << "Указательный";
+        break;
+    case 8:
+        cout << "Средний";
+        break;
+    case 9:
+        cout << "Безымянный";
+        break;
+    case 10:
+        cout << "Мизинец";
+        break;
+    default:
+        cout << "Ошибка";
+        break;
+    }
+}
+
+//3.1.14
+
+void months() {
+    int f;
+
+    cout << "Введите число: ";
+    cin >> f;
+
+    switch (f) {
+    case 1:
+        cout << "Январь";
+        break;
+    case 2:
+        cout << "Февраль";
+        break;
+    case 3:
+        cout << "Март";
+        break;
+    case 4:
+        cout << "Апрель";
+        break;
+    case 5:
+        cout << "Май";
+        break;
+    case 6:
+        cout << "Июнь";
+        break;
+    case 7:
+        cout << "Июль";
+        break;
+    case 8:
+        cout << "Август";
+        break;
+    case 9:
+        cout << "Сентябрь";
+        break;
+    case 10:
+        cout << "Октябрь";
+        break;
+    case 11:
+        cout << "Ноябрь";
+        break;
+    case 12:
+        cout << "Декабрь";
+        break;
+    default:
+        cout << "Ошибка";
+        break;
+    }
+}
+
+//3.1.15
+
+void play() {
+    int f;
+
+    cout << "Сделайте выбор\n1 - камень\n2 - ножницы\n3 - бумага" << endl;
+    cin >> f;
+
+    switch (f) {
+    case 1:
+        cout << "Бумага";
+        break;
+    case 2:
+        cout << "Камень";
+        break;
+    case 3:
+        cout << "Ножницы";
+        break;
+    }
+}
+//3.1.16
+
+void convertor() {
+    double num;
+    int f;
+
+    cout << "Введите расстояние в метрах: ";
+    cin >> num;
+
+    cout << "Сделайте выбор\n1 - км\n2 - см\n3 - мм" << endl;
+    cin >> f;
+
+    switch (f) {
+    case 1:
+        cout << num / 1000 << "км";
+        break;
+    case 2:
+        cout << num * 100 << "см";
+        break;
+    case 3:
+        cout << num * 1000 << "мм";
+        break;
+    }
+}
+
+//3.1.17
+
+void nums() {
+    int i = 0;
+    while (i < 10) {
+        cout << i;
+        i++;
+    }
+}
+
+//3.1.18
+
+void factorial() {
+
+    int i = 1;
+    int num;
+    int result = 1;
+
+    cout << "Введите число: ";
+    cin >> num;
+
+    while (i <= num) {
+        result *= i;
+        i++;
+    }
+    cout << result;
+}
+
+void cvadr() {
+
+    int start, end;
+
+    cout << "Введите начало диапазона: ";
+    cin >> start;
+    cout << "Введите конец диапазона: ";
+    cin >> end;
+
+    while (start <= end) {
+        cout << start << "^2 = " << start * start << endl;
+        start++;
+    }
+}
+
+//3.1.20
+
+void multiplication_table() {
+    int num = 1;
+    int x = 1;
+
+    while (x < 10) {
+        cout << x << " * " << num << " = " << num * x << endl;
+        x++;
+    }
+}
+
+//3.1.21
+
+void calculating_the_amount() {
+    int start, end;
+    int sum = 0;
+
+    cout << "Введите начало диапазона: ";
+    cin >> start;
+    cout << "Введите конец диапазона: ";
+    cin >> end;
+
+    while (start <= end) {
+        if (start % 2 == 0) {
+            sum += start;
+        }
+        start++;
+    }
+    cout << "Сумма чётных чисел: " << sum;
+}
+
+//3.1.22
+
+void number_search() {
+    int num = 191;
+
+    while (true) {
+         if (num % 117 == 0) {
+            cout << "Число " << num << " нацело делится на 117";
+            break;
+        }
+        num++;
+     }
+}
+
+//3.1.23
+
+void search_() {
+    char simb;
+    int i = 0;
+
+    cout << "Вводите символы (для завершения введите @):" << endl;
+
+    do {
+        cin >> simb;
+        if (simb != '@') {
+            i++;
+        }
+    } while (simb != '@');
+        cout << "Количество символов до '@': " << i << endl;
+}
+
+//3.1.24
+
+void sum_num() {
+    string simb;
+    int i = 0;
+    float sum = 0;
+
+    cout << "Вводите символы (для завершения введите @):" << endl;
+
+    do {
+        cin >> simb;
+        if (simb != "@") {
+            sum += stoi(simb);
+            i++;
+        }
+    } while (simb != "@");
+    cout << "Количество символов до '@': " << sum << endl;    
+}
+
+//3.1.25
+
+void post() {
+    int number;
+    cin >> number;
+
+    do {
+        cout << number % 10 << endl;
+        number /= 10;
+    } while (number > 0);
+}
+//3.1.26
+
+void contribution() {
+    double deposit = 1000.0;
+    double rate = 0.02;
+    int month = 0;
+
+    int month30 = 0;
+    int month1200 = 0;
+
+    do {
+        month++;
+        double increase = deposit * rate;
+        deposit += increase;
+
+        if (month30 == 0 && increase > 30.0) {
+            month30 = month;
+        }
+
+        if (month1200 == 0 && deposit > 1200.0) {
+            month1200 = month;
+        }
+
+    } while (month30 == 0 || month1200 == 0);
+
+    cout << "a. Величина ежемесячного увеличения превысит 30 руб. в " << month30 << "-й месяц.\n";
+    cout << "b. Размер вклада превысит 1200 руб. через " << month1200 << " месяцев.\n";
+}
 
 int main() {
 
     setlocale(LC_ALL, "rus");
 
-    density();
+    contribution();
 
 }

@@ -1,0 +1,5 @@
+﻿  PR4.cpp
+C:\Users\ivano\source\repos\PR4\PR4\PR4.cpp(134,15): warning C4244: аргумент: преобразование "time_t" в "unsigned int", возможна потеря данных
+C:\Users\ivano\source\repos\PR4\PR4\PR4.cpp(253,29): warning C4244: +=: преобразование "double" в "int", возможна потеря данных
+C:\Users\ivano\source\repos\PR4\PR4\PR4.cpp(575,17): warning C4566: символ, представленный универсальным именем символа "\u2713", невозможно представить в текущей кодовой странице (1251)
+  PR4.vcxproj -> C:\Users\ivano\source\repos\PR4\x64\Debug\PR4.exe

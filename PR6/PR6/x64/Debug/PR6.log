@@ -1,0 +1,3 @@
+﻿  PR6.cpp
+C:\Users\ivano\source\repos\PR6\PR6\PR6.cpp(167,15): warning C4244: аргумент: преобразование "time_t" в "unsigned int", возможна потеря данных
+  PR6.vcxproj -> C:\Users\ivano\source\repos\PR6\x64\Debug\PR6.exe

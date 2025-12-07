@@ -1,0 +1,3 @@
+﻿  PR5.cpp
+C:\Users\ivano\source\repos\PR5\PR5\PR5.cpp(127,15): warning C4244: аргумент: преобразование "time_t" в "unsigned int", возможна потеря данных
+  PR5.vcxproj -> C:\Users\ivano\source\repos\PR5\x64\Debug\PR5.exe

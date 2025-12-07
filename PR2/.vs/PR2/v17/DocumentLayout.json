@@ -1,9 +1,9 @@
 {
   "Version": 1,
-  "WorkspaceRootPath": "C:\\Users\\Dima\\source\\repos\\Practices\\PR2\\",
+  "WorkspaceRootPath": "C:\\Users\\ivano\\source\\repos\\Practik\\Practices\\PR2\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{36BD7592-51BE-41E3-A9FE-DB0B823DB617}|PR2\\PR2.vcxproj|C:\\Users\\Dima\\source\\repos\\Practices\\PR2\\PR2\\PR2.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "AbsoluteMoniker": "D:0:0:{36BD7592-51BE-41E3-A9FE-DB0B823DB617}|PR2\\PR2.vcxproj|C:\\Users\\ivano\\source\\repos\\Practik\\Practices\\PR2\\PR2\\PR2.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
       "RelativeMoniker": "D:0:0:{36BD7592-51BE-41E3-A9FE-DB0B823DB617}|PR2\\PR2.vcxproj|solutionrelative:PR2\\PR2.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
     }
   ],
@@ -20,11 +20,11 @@
               "$type": "Document",
               "DocumentIndex": 0,
               "Title": "PR2.cpp",
-              "DocumentMoniker": "C:\\Users\\Dima\\source\\repos\\Practices\\PR2\\PR2\\PR2.cpp",
+              "DocumentMoniker": "C:\\Users\\ivano\\source\\repos\\Practik\\Practices\\PR2\\PR2\\PR2.cpp",
               "RelativeDocumentMoniker": "PR2\\PR2.cpp",
-              "ToolTip": "C:\\Users\\Dima\\source\\repos\\Practices\\PR2\\PR2\\PR2.cpp",
+              "ToolTip": "C:\\Users\\ivano\\source\\repos\\Practik\\Practices\\PR2\\PR2\\PR2.cpp",
               "RelativeToolTip": "PR2\\PR2.cpp",
-              "ViewState": "AgIAAMsAAAAAAAAAAAAAANsAAAAkAAAAAAAAAA==",
+              "ViewState": "AgIAANEAAAAAAAAAAAAAANsAAAAHAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
               "WhenOpened": "2025-09-20T10:40:41.377Z",
               "EditorCaption": ""

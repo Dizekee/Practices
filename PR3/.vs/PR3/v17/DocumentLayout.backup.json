@@ -1,10 +1,10 @@
 {
   "Version": 1,
-  "WorkspaceRootPath": "C:\\Users\\Dima\\source\\repos\\Practices\\PR3\\",
+  "WorkspaceRootPath": "C:\\Users\\ivano\\source\\repos\\PR3\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{9D801013-7099-42EA-97B6-F86A80FB178C}|PR3\\PR3.vcxproj|C:\\Users\\Dima\\source\\repos\\Practices\\PR3\\PR3\\PR3.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
-      "RelativeMoniker": "D:0:0:{9D801013-7099-42EA-97B6-F86A80FB178C}|PR3\\PR3.vcxproj|solutionrelative:PR3\\PR3.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+      "AbsoluteMoniker": "D:0:0:{C87556AE-2737-4048-987B-20D3B4DBC141}|PR3\\PR3.vcxproj|C:\\Users\\ivano\\source\\repos\\PR3\\PR3\\PR3.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{C87556AE-2737-4048-987B-20D3B4DBC141}|PR3\\PR3.vcxproj|solutionrelative:PR3\\PR3.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
     }
   ],
   "DocumentGroupContainers": [
@@ -14,20 +14,27 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 0,
+          "SelectedChildIndex": 2,
           "Children": [
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{56df62a4-05a3-4e5b-aa1a-99371ccfb997}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{cce594b6-0c39-4442-ba28-10c64ac7e89f}"
+            },
             {
               "$type": "Document",
               "DocumentIndex": 0,
               "Title": "PR3.cpp",
-              "DocumentMoniker": "C:\\Users\\Dima\\source\\repos\\Practices\\PR3\\PR3\\PR3.cpp",
+              "DocumentMoniker": "C:\\Users\\ivano\\source\\repos\\PR3\\PR3\\PR3.cpp",
               "RelativeDocumentMoniker": "PR3\\PR3.cpp",
-              "ToolTip": "C:\\Users\\Dima\\source\\repos\\Practices\\PR3\\PR3\\PR3.cpp",
+              "ToolTip": "C:\\Users\\ivano\\source\\repos\\PR3\\PR3\\PR3.cpp",
               "RelativeToolTip": "PR3\\PR3.cpp",
-              "ViewState": "AgIAALQAAAAAAAAAAAAAANkAAAAAAAAAAAAAAA==",
+              "ViewState": "AgIAABoCAAAAAAAAAAAAAPgBAABCAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
-              "WhenOpened": "2025-09-21T23:56:34.526Z",
-              "IsPinned": true,
+              "WhenOpened": "2025-10-06T15:03:47.664Z",
               "EditorCaption": ""
             }
           ]
