@@ -31,8 +31,7 @@
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000680|",
               "WhenOpened": "2025-10-27T09:10:38.011Z",
-              "IsPinned": true,
-              "EditorCaption": ""
+              "IsPinned": true
             },
             {
               "$type": "Document",
@@ -42,7 +41,7 @@
               "RelativeDocumentMoniker": "PR4\\PR4.cpp",
               "ToolTip": "C:\\Users\\ivano\\source\\repos\\PR4\\PR4\\PR4.cpp",
               "RelativeToolTip": "PR4\\PR4.cpp",
-              "ViewState": "AgIAAD4CAAAAAAAAAAAYwBECAAAAAAAAAAAAAA==",
+              "ViewState": "AgIAAFEAAAAAAAAAAAAowFEAAAAhAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
               "WhenOpened": "2025-10-27T11:10:06.448Z",
               "EditorCaption": ""

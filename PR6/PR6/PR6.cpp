@@ -275,20 +275,13 @@ void splitStringRun() {
 // 12
 
 void addBytes(const unsigned char* a, const unsigned char* b, unsigned char* result, int n) {
-    int carry = 0; // Переменная для хранения переноса
+    int carry = 0;
 
-    // Обрабатываем байты от младших (индекс 0) к старшим (индекс n-1)
     for (int i = 0; i < n; ++i) {
-        // Суммируем байты и перенос
         int sum = a[i] + b[i] + carry;
-        // Записываем младшие 8 бит суммы
         result[i] = static_cast<unsigned char>(sum & 0xFF);
-        // Вычисляем перенос для следующего байта
         carry = sum >> 8;
     }
-
-    // Если нужно обработать переполнение, можно вернуть carry
-    // Но по заданию результат помещается в n байт
 }
 
 void addBytesRun() {
@@ -306,10 +299,69 @@ void addBytesRun() {
     cout << endl;
 }
 
+// 14
+
+double add(double a, double b) {
+    return a + b;
+}
+
+double subtract(double a, double b) {
+    return a - b;
+}
+
+void calculate(double (*operation)(double, double), double x, double y) {
+    double result = operation(x, y);
+    cout << "Result: " << result << endl;
+}
+
+void RynCalculate() {
+    double num1, num2;
+    char operation;
+
+    cout << "Vvedite 2 chisla: ";
+    cin >> num1 >> num2;
+
+    cout << "+/-: ";
+    cin >> operation;
+
+    if (operation == '+') {
+        calculate(add, num1, num2);
+    }
+    else if (operation == '-') {
+        calculate(subtract, num1, num2);
+    }
+    else {
+        cout << "Error" << endl;
+    }
+}
+
+// A1
+
+struct Rectangle {
+    double width;
+    double height;
+};
+
+double calculateArea(const Rectangle* rect) {
+    if (rect == nullptr) {
+        cout << "Error" << endl;
+        return 0.0;
+    }
+    return rect->width * rect->height;
+}
+
+void calculatorAreaRun() {
+    Rectangle rect;
+    rect.width = 5.5;
+    rect.height = 3.2;
+
+    double area = calculateArea(&rect);
+    cout << "Площадь прямоугольника: " << area << endl;
+}
 
 
 int main(int argc, char* argv[])
 {
-    addBytesRun();
+    RynCalculate();
 
 }

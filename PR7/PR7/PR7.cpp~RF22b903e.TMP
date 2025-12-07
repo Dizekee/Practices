@@ -1,0 +1,173 @@
+﻿#include <cstdlib>
+#include <vector>
+#include <ctime>
+#include <string>
+#include <iostream>
+#include <cmath>
+
+using namespace std;
+
+// 1
+struct Person {
+    string name;
+    int age;
+    double height;
+};
+
+void printPerson(const Person& p) {
+    cout << "Имя: " << p.name << endl;
+    cout << "Возраст: " << p.age << endl;
+    cout << "Рост: " << p.height << " м" << endl;
+}
+
+struct Book {
+    string title;
+    string author;
+    int year;
+};
+
+void printBook(const Book& b) {
+    cout << "Название: " << b.title << endl;
+    cout << "Автор: " << b.author << endl;
+    cout << "Год издания: " << b.year << endl;
+}
+
+struct Car {
+    string brand;
+    int year;
+    double price;
+};
+
+void printCar(const Car& c) {
+    cout << "Марка: " << c.brand << endl;
+    cout << "Год выпуска: " << c.year << endl;
+    cout << "Цена: " << c.price << " руб." << endl;
+}
+
+void printStruct() {
+    Person person = { "Иван Иванов", 25, 1.85 };
+    printPerson(person);
+
+    Book book = { "Преступление и наказание", "Федор Достоевский", 1866 };
+    printBook(book);
+
+    Car car = { "Toyota Camry", 2022, 2500000.0 };
+    printCar(car);
+}
+
+// 2
+
+struct Address {
+    string street;
+    string city;
+    string zipCode;
+};
+
+struct Person2 {
+    string name;
+    Address address;
+};
+
+struct Employee {
+    string name;
+    double salary;
+};
+
+struct Company {
+    string companyName;
+    Employee employees[10];
+    int employeeCount = 0;
+};
+
+struct Player {
+    string name;
+    string role;
+};
+
+struct Team {
+    string teamName;
+    Player players[5];
+    int playerCount = 0;
+};
+
+void printPersonInfo(const Person2& person) {
+    cout << "Имя: " << person.name << endl;
+    cout << "Адрес: " << person.address.street << ", " << person.address.city << ", " << person.address.zipCode << endl;
+}
+
+void printCompanyInfo(const Company& company) {
+    cout << "\nКомпания: " << company.companyName << endl;
+    cout << "Количество сотрудников: " << company.employeeCount << endl;
+    cout << "Список сотрудников:" << endl;
+    for (int i = 0; i < company.employeeCount; i++) {
+        cout << "  " << i + 1 << ". " << company.employees[i].name << " - Зарплата: " << company.employees[i].salary << " руб." << endl;
+    }
+}
+
+void printTeamInfo(const Team& team) {
+    cout << "\nКоманда: " << team.teamName << endl;
+    cout << "Количество участников: " << team.playerCount << endl;
+    cout << "Состав команды:" << endl;
+    for (int i = 0; i < team.playerCount; i++) {
+        cout << "  " << i + 1 << ". " << team.players[i].name << " - Роль: " << team.players[i].role << endl;
+    }
+}
+
+// 3
+
+struct Point {
+    double x;
+    double y;
+
+    double distanceTo(const Point& other) const {
+        return sqrt(pow(x - other.x, 2) + pow(y - other.y, 2));
+    }
+
+    static double distanceBetween(const Point& p1, const Point& p2) {
+        return sqrt(pow(p1.x - p2.x, 2) + pow(p1.y - p2.y, 2));
+    }
+};
+
+struct Circle {
+    double radius;
+
+    double getArea() const {
+        float M_PI = 3.14159265358979323846;
+        return M_PI * radius * radius;
+    }
+
+    friend double calculateCircleArea(const Circle& circle) {
+        return circle.getArea();
+    }
+};
+
+
+struct Rectangle {
+    Point topLeft;
+    Point bottomRight; 
+
+    double getWidth() const {
+        return abs(bottomRight.x - topLeft.x);
+    }
+
+    double getHeight() const {
+        return abs(topLeft.y - bottomRight.y);
+    }
+
+    double getPerimeter() const {
+        double width = getWidth();
+        double height = getHeight();
+        return 2 * (width + height);
+    }
+
+    friend double calculateRectanglePerimeter(const Rectangle& rect) {
+        return rect.getPerimeter();
+    }
+};
+
+
+int main(int argc, char* argv[])
+{
+    setlocale(LC_ALL, "rus");
+    printStruct();
+}
