@@ -1,9 +1,9 @@
 {
   "Version": 1,
-  "WorkspaceRootPath": "C:\\Users\\Dima\\source\\repos\\Practices\\Practices\\PR6\\",
+  "WorkspaceRootPath": "C:\\Users\\ivano\\source\\repos\\Practik\\Practices\\PR6\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{7B257C37-7B09-4309-BAFC-53FDAD7748C4}|PR6\\PR6.vcxproj|C:\\Users\\Dima\\source\\repos\\Practices\\Practices\\PR6\\PR6\\PR6.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "AbsoluteMoniker": "D:0:0:{7B257C37-7B09-4309-BAFC-53FDAD7748C4}|PR6\\PR6.vcxproj|C:\\Users\\ivano\\source\\repos\\Practik\\Practices\\PR6\\PR6\\PR6.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
       "RelativeMoniker": "D:0:0:{7B257C37-7B09-4309-BAFC-53FDAD7748C4}|PR6\\PR6.vcxproj|solutionrelative:PR6\\PR6.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
     }
   ],
@@ -20,11 +20,11 @@
               "$type": "Document",
               "DocumentIndex": 0,
               "Title": "PR6.cpp",
-              "DocumentMoniker": "C:\\Users\\Dima\\source\\repos\\Practices\\Practices\\PR6\\PR6\\PR6.cpp",
+              "DocumentMoniker": "C:\\Users\\ivano\\source\\repos\\Practik\\Practices\\PR6\\PR6\\PR6.cpp",
               "RelativeDocumentMoniker": "PR6\\PR6.cpp",
-              "ToolTip": "C:\\Users\\Dima\\source\\repos\\Practices\\Practices\\PR6\\PR6\\PR6.cpp",
+              "ToolTip": "C:\\Users\\ivano\\source\\repos\\Practik\\Practices\\PR6\\PR6\\PR6.cpp",
               "RelativeToolTip": "PR6\\PR6.cpp",
-              "ViewState": "AgIAAEcBAAAAAAAAAAAAAG8BAAAAAAAAAAAAAA==",
+              "ViewState": "AgIAACQBAAAAAAAAAAAAAEsBAAAFAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
               "WhenOpened": "2025-11-10T13:19:21.139Z",
               "EditorCaption": ""

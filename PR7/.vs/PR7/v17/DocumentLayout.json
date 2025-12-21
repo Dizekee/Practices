@@ -1,10 +1,10 @@
 {
   "Version": 1,
-  "WorkspaceRootPath": "C:\\Users\\Dima\\source\\repos\\Practices\\Practices\\PR7\\",
+  "WorkspaceRootPath": "C:\\Users\\ivano\\source\\repos\\Practik\\Practices\\PR7\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{BA0D9077-1019-411F-964E-C3E4ECDFC2EE}|PR7\\PR7.vcxproj|C:\\Users\\Dima\\source\\repos\\Practices\\Practices\\PR7\\PR7\\PR7.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
-      "RelativeMoniker": "D:0:0:{BA0D9077-1019-411F-964E-C3E4ECDFC2EE}|PR7\\PR7.vcxproj|solutionrelative:PR7\\PR7.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+      "AbsoluteMoniker": "D:0:0:{CF25AEAD-CD66-4419-8F6F-16A7EBE3E0E0}|PR7\\PR7.vcxproj|C:\\Users\\ivano\\source\\repos\\Practik\\Practices\\PR7\\PR7\\PR7.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{CF25AEAD-CD66-4419-8F6F-16A7EBE3E0E0}|PR7\\PR7.vcxproj|solutionrelative:PR7\\PR7.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
     }
   ],
   "DocumentGroupContainers": [
@@ -20,13 +20,13 @@
               "$type": "Document",
               "DocumentIndex": 0,
               "Title": "PR7.cpp",
-              "DocumentMoniker": "C:\\Users\\Dima\\source\\repos\\Practices\\Practices\\PR7\\PR7\\PR7.cpp",
+              "DocumentMoniker": "C:\\Users\\ivano\\source\\repos\\Practik\\Practices\\PR7\\PR7\\PR7.cpp",
               "RelativeDocumentMoniker": "PR7\\PR7.cpp",
-              "ToolTip": "C:\\Users\\Dima\\source\\repos\\Practices\\Practices\\PR7\\PR7\\PR7.cpp",
+              "ToolTip": "C:\\Users\\ivano\\source\\repos\\Practik\\Practices\\PR7\\PR7\\PR7.cpp",
               "RelativeToolTip": "PR7\\PR7.cpp",
-              "ViewState": "AgIAAHUAAAAAAAAAAAAAAIgAAAAmAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAUAAAAQAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
-              "WhenOpened": "2025-12-07T13:55:56.085Z",
+              "WhenOpened": "2025-12-21T15:20:47.437Z",
               "EditorCaption": ""
             }
           ]

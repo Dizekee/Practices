@@ -1,0 +1,37 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\ivano\\source\\repos\\Practik\\Practices\\PR8\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{C3D5CB19-18E4-4CA5-94DD-B6623E799C3B}|PR8\\PR8.vcxproj|C:\\Users\\ivano\\source\\repos\\Practik\\Practices\\PR8\\PR8\\PR8.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{C3D5CB19-18E4-4CA5-94DD-B6623E799C3B}|PR8\\PR8.vcxproj|solutionrelative:PR8\\PR8.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 0,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "PR8.cpp",
+              "DocumentMoniker": "C:\\Users\\ivano\\source\\repos\\Practik\\Practices\\PR8\\PR8\\PR8.cpp",
+              "RelativeDocumentMoniker": "PR8\\PR8.cpp",
+              "ToolTip": "C:\\Users\\ivano\\source\\repos\\Practik\\Practices\\PR8\\PR8\\PR8.cpp",
+              "RelativeToolTip": "PR8\\PR8.cpp",
+              "ViewState": "AgIAAAMBAAAAAAAAAAAAABsBAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
+              "WhenOpened": "2025-12-21T15:21:07.37Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

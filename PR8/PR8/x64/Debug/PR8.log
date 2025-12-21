@@ -1,0 +1,7 @@
+﻿  PR8.cpp
+C:\Users\ivano\source\repos\Practik\Practices\PR8\PR8\PR8.cpp(86,13): warning C4267: инициализация: преобразование из "size_t" в "int"; возможна потеря данных
+C:\Users\ivano\source\repos\Practik\Practices\PR8\PR8\PR8.cpp(116,13): warning C4267: инициализация: преобразование из "size_t" в "int"; возможна потеря данных
+C:\Users\ivano\source\repos\Practik\Practices\PR8\PR8\PR8.cpp(121,28): warning C4267: =: преобразование из "size_t" в "int"; возможна потеря данных
+C:\Users\ivano\source\repos\Practik\Practices\PR8\PR8\PR8.cpp(168,15): warning C4267: инициализация: преобразование из "size_t" в "int"; возможна потеря данных
+C:\Users\ivano\source\repos\Practik\Practices\PR8\PR8\PR8.cpp(193,15): warning C4244: аргумент: преобразование "time_t" в "unsigned int", возможна потеря данных
+  PR8.vcxproj -> C:\Users\ivano\source\repos\Practik\Practices\PR8\x64\Debug\PR8.exe
