@@ -1,13 +1,13 @@
 {
   "Version": 1,
-  "WorkspaceRootPath": "C:\\Users\\ivano\\source\\repos\\PR4\\",
+  "WorkspaceRootPath": "C:\\Users\\Dima\\source\\repos\\Practices\\Practices\\PR4\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{C5B5A07F-D04F-4960-8A28-05F89B48D699}|PR4\\PR4.vcxproj|C:\\Users\\ivano\\source\\repos\\PR4\\PR4\\PR4.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "AbsoluteMoniker": "D:0:0:{C5B5A07F-D04F-4960-8A28-05F89B48D699}|PR4\\PR4.vcxproj|C:\\Users\\Dima\\source\\repos\\Practices\\Practices\\PR4\\PR4\\PR4.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
       "RelativeMoniker": "D:0:0:{C5B5A07F-D04F-4960-8A28-05F89B48D699}|PR4\\PR4.vcxproj|solutionrelative:PR4\\PR4.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{C5B5A07F-D04F-4960-8A28-05F89B48D699}|PR4\\PR4.vcxproj|C:\\Users\\ivano\\source\\repos\\PR4\\PR4\\PR4.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "AbsoluteMoniker": "D:0:0:{C5B5A07F-D04F-4960-8A28-05F89B48D699}|PR4\\PR4.vcxproj|C:\\Users\\Dima\\source\\repos\\Practices\\Practices\\PR4\\PR4\\PR4.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
       "RelativeMoniker": "D:0:0:{C5B5A07F-D04F-4960-8A28-05F89B48D699}|PR4\\PR4.vcxproj|solutionrelative:PR4\\PR4.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
     }
   ],
@@ -24,9 +24,9 @@
               "$type": "Document",
               "DocumentIndex": 1,
               "Title": "PR4.h",
-              "DocumentMoniker": "C:\\Users\\ivano\\source\\repos\\PR4\\PR4\\PR4.h",
+              "DocumentMoniker": "C:\\Users\\Dima\\source\\repos\\Practices\\Practices\\PR4\\PR4\\PR4.h",
               "RelativeDocumentMoniker": "PR4\\PR4.h",
-              "ToolTip": "C:\\Users\\ivano\\source\\repos\\PR4\\PR4\\PR4.h",
+              "ToolTip": "C:\\Users\\Dima\\source\\repos\\Practices\\Practices\\PR4\\PR4\\PR4.h",
               "RelativeToolTip": "PR4\\PR4.h",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000680|",
@@ -37,22 +37,14 @@
               "$type": "Document",
               "DocumentIndex": 0,
               "Title": "PR4.cpp",
-              "DocumentMoniker": "C:\\Users\\ivano\\source\\repos\\PR4\\PR4\\PR4.cpp",
+              "DocumentMoniker": "C:\\Users\\Dima\\source\\repos\\Practices\\Practices\\PR4\\PR4\\PR4.cpp",
               "RelativeDocumentMoniker": "PR4\\PR4.cpp",
-              "ToolTip": "C:\\Users\\ivano\\source\\repos\\PR4\\PR4\\PR4.cpp",
+              "ToolTip": "C:\\Users\\Dima\\source\\repos\\Practices\\Practices\\PR4\\PR4\\PR4.cpp",
               "RelativeToolTip": "PR4\\PR4.cpp",
-              "ViewState": "AgIAAFEAAAAAAAAAAAAowFEAAAAhAAAAAAAAAA==",
+              "ViewState": "AgIAACcCAAAAAAAAAAAAACkCAAAgAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
               "WhenOpened": "2025-10-27T11:10:06.448Z",
               "EditorCaption": ""
-            },
-            {
-              "$type": "Bookmark",
-              "Name": "ST:0:0:{56df62a4-05a3-4e5b-aa1a-99371ccfb997}"
-            },
-            {
-              "$type": "Bookmark",
-              "Name": "ST:0:0:{cce594b6-0c39-4442-ba28-10c64ac7e89f}"
             }
           ]
         }

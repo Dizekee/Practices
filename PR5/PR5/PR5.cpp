@@ -120,6 +120,8 @@ double power(double base, int exponent) {
     }
 }
 
+    
+
 //5.1.9
 
 int sumOfDigits(int n) {
@@ -130,6 +132,48 @@ int sumOfDigits(int n) {
         return 0;
     }
     return (n % 10) + sumOfDigits(n / 10);
+}
+
+
+// 5.1.10
+
+double calculateAverage(int* arr, int size) {
+    if (size == 0) return 0.0;
+
+    int sum = 0;
+    int* end = arr + size;
+
+    for (int* ptr = arr; ptr < end; ptr++) {
+        sum += *ptr;
+    }
+
+    return static_cast<double>(sum) / size;
+}
+
+// 5.1.11
+
+void splitAndPrint(char* str) {
+    for (int i = 0; str[i] != '\0'; i++) {
+        if (str[i] == ' ') {
+            str[i] = '\0';
+        }
+    }
+
+    cout << "Слова: ";
+    for (int i = 0; str[i] != '\0'; i++) {
+        if (i == 0 || str[i - 1] == '\0') {
+            cout << &str[i] << " ";
+        }
+    }
+}
+
+// 5.1.14
+
+int pluss(int a, int b) { return a + b; }
+int minuss(int a, int b) { return a - b; }
+
+int calculate(int x, int y, int (*operation)(int, int)) {
+    return operation(x, y);
 }
 
 int main() {
@@ -223,6 +267,18 @@ int main() {
 
     int ssum = sumOfDigits(inu);
     cout << "sum числа n" << ssum;
+
+    // 5.1.10
+    const int size = 5;
+    int arr[] = { 3, 6, 9, 12, 15 };
+
+    cout << "Среднее арифметическое: " << calculateAverage(arr, size) << endl;
+
+    // 5.1.15
+
+    int sum = calculate(10, 5, pluss);
+
+
 
     return 0;
 }
