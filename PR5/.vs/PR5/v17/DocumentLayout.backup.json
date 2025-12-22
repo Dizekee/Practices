@@ -1,9 +1,9 @@
 {
   "Version": 1,
-  "WorkspaceRootPath": "C:\\Users\\ivano\\source\\repos\\PR5\\",
+  "WorkspaceRootPath": "C:\\Users\\ivano\\source\\repos\\Practik\\Practices\\PR5\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{7EEAC388-1AF2-4A3B-83C4-3DD59DD684AF}|PR5\\PR5.vcxproj|C:\\Users\\ivano\\source\\repos\\PR5\\PR5\\PR5.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "AbsoluteMoniker": "D:0:0:{7EEAC388-1AF2-4A3B-83C4-3DD59DD684AF}|PR5\\PR5.vcxproj|C:\\Users\\ivano\\source\\repos\\Practik\\Practices\\PR5\\PR5\\PR5.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
       "RelativeMoniker": "D:0:0:{7EEAC388-1AF2-4A3B-83C4-3DD59DD684AF}|PR5\\PR5.vcxproj|solutionrelative:PR5\\PR5.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
     }
   ],
@@ -20,11 +20,11 @@
               "$type": "Document",
               "DocumentIndex": 0,
               "Title": "PR5.cpp",
-              "DocumentMoniker": "C:\\Users\\ivano\\source\\repos\\PR5\\PR5\\PR5.cpp",
+              "DocumentMoniker": "C:\\Users\\ivano\\source\\repos\\Practik\\Practices\\PR5\\PR5\\PR5.cpp",
               "RelativeDocumentMoniker": "PR5\\PR5.cpp",
-              "ToolTip": "C:\\Users\\ivano\\source\\repos\\PR5\\PR5\\PR5.cpp",
+              "ToolTip": "C:\\Users\\ivano\\source\\repos\\Practik\\Practices\\PR5\\PR5\\PR5.cpp",
               "RelativeToolTip": "PR5\\PR5.cpp",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAsAAAAhAAAAAAAAAA==",
+              "ViewState": "AgIAAAMBAAAAAAAAAAAAAAYBAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
               "WhenOpened": "2025-10-27T11:38:24.602Z",
               "IsPinned": true,
